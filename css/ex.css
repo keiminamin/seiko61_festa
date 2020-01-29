@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafafa;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    padding: 30px;
+    font-size: 30px;
+    color: #393E41;
+}
+
+.container {
+    height: 100vh;
+    overflow: hidden;
+}
+
+nav {
+    overflow: hidden;
+    margin-left: 64vh;
+
+    display: block;
+    margin-top: 80px;
+
+
+
+
+}
+
+
+
+li {
+    list-style: none;
+
+
+}
+
+ul {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #393E41;
+}
+
+a:hover {
+    opacity: 0.3;
+    transition: 0.3s
+}
+
+
+a.list {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 50px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: solid;
+    border-color: #FF5666;
+
+
+
+}
+
+a.list:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+.last {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: none;
+    border-color: #FF5666;
+
+}
+
+.main_title {
+    color: #393E41;
+    /*
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Anton', sans-serif;
+    
+*/
+    font-size: 70px;
+    font-family: halyard-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+.content {
+    width: 100vh;
+    height: 120vh;
+    margin: 0 auto;
+}
+
+
+.slide-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    padding: 0;
+}
+
+.slide-dots li {
+    list-style-type: none;
+    width: 300px;
+    height: 50px;
+
+}
+
+.slide-dots li button {
+    border: 1px solid #000;
+    background-color: #fafafafa;
+    color: #fff;
+    margin: 0 8px;
+}
+
+.slide-dots li:hover,
+.original-dots li button:hover {
+    cursor: pointer;
+}
+
+.slick-dots li button:before {
+
+    background-size: cover;
+    font-size: 20px;
+    text-indent: 0px;
+    width: 300px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 300px;
+    height: 30px;
+    border-bottom: 1px solid #393E41;
+}
+
+.slick-dots li:nth-child(1) button:before {
+    content: "1st Floor";
+
+
+
+}
+
+
+.slick-dots li:nth-child(2) button:before {
+    content: '2nd Floor';
+}
+
+.slick-dots li:nth-child(3) button:before {
+    content: '3rd Floor';
+}
+
+.slick-dots li:nth-child(4) button:before {
+    content: '4th Floor';
+}
+
+.map {
+    margin: 50px;
+    display: block;
+    float: left;
+  background-size: cover;
+
+}
+
+.floorguide01 {
+    margin-top: 50px;
+    border-top: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+
+
+}
+
+th {
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    background: #d3d3d3;
+    color: #393E41;
+    padding: 10px;
+
+
+}
+
+td {
+    border-bottom: 1px solid #d3d3d3;
+    border-right: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 5px;
+    color: #393E41;
+}
+
+.first {
+    background: #FF5666;
+    color: #fafafafa;
+
+}
+.second{
+    background: #3f8efc;
+color: #fafafa;
+}
+.third{
+background: #fcec52;
+    color: #fafafa;
+}
+.four{
+background: #3bc14a;
+    color: #fafafa;
+
+}
+.lastcontent {
+
+    height: 50vh;
+
+    background-color: #393E41;
+
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FAFAFA;
+    
+    
+}
+.icon {
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;
+    width: 40%;
+    margin: 0 auto;
+    
+}
+
+.twitter {
+    background-color: #393E41;
+    color: #fff;
+   
+    overflow: hidden;
+}
+
+.facebook {
+
+    background-color: #393E41;
+    color: #FAFAFA;
+    background-size: cover;
+   
+}
+
+.instagram {
+
+    background-color: #393E41;
+    background-size: cover;
+   
+    color: #FAFAFA;
+   
+}
+
+.gakuin {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    float: none;
+   
+    
+}
+.link {
+    display: flex;
+   justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 40px;
+   
+}
+
+.next {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    
+   
+}
+
+
+footer {
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #393E41;
+}
+
+.twitter {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    overflow: hidden;
+}

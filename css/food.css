@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+   
+
+
+}
+
+body{
+background: #fafafafa;
+}
+p {
+    color: #393E41;
+}
+
+h2 {
+    text-align: center;
+}
+
+.main_title {
+    color: #393E41;
+    /*
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Anton', sans-serif;
+*/
+    font-family: halyard-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+
+    font-size: 70px;
+}
+
+header {
+    overflow: hiddenzs
+}
+
+
+
+
+h3 {
+    padding: 30px;
+    font-size: 30px;
+    color: #393E41;
+}
+
+nav {
+    overflow: hidden;
+    margin-left: 64vh;
+    margin-top: 80px;
+    display: block;
+
+
+
+
+}
+
+
+li {
+    list-style: none;
+
+
+}
+
+ul {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #393E41;
+    
+}
+
+a:hover {
+    opacity: 0.3;
+    transition: 0.3s
+}
+
+
+a.list {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 50px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: solid;
+    border-color: #FF5666;
+
+
+
+}
+
+a.list:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+.last {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: none;
+    border-color: #FF5666;
+
+}
+
+#now {
+    border-bottom: solid;
+
+    border-color: #FF5666;
+
+}
+
+.last:hover {
+    opacity: 0.5;
+    transition: 0.1a;
+}
+
+.image {
+    width: 100%;
+
+}
+
+.school {
+    display: block;
+    /* border-radius: 30px;*/
+    margin: 0 auto;
+    margin-top: 5vh;
+
+}
+
+.container {
+    padding: 120px;
+    overflow: hidden;
+}
+
+.food_map {
+    display: block;
+    margin: 0 auto;
+}
+
+.food_name {
+    color: #393E41;
+    /*
+    border-bottom: solid;
+    border-bottom-color: #FF5666;
+    border-bottom-width: 2px;
+*/
+    display: block;
+
+}
+
+.map_sentence {
+    color: #393E41;
+    border-bottom: 3px solid #393E41;
+    width: 30vh;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.food_container {
+    overflow: hidden;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.shop_title {
+    margin: 0 auto;
+    color: #393E41;
+    border-bottom: solid;
+    border-color: #393E41;
+    border-width: 3px;
+
+
+    width: 30vh;
+}
+
+.food {
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 300px;
+    height: 480px;
+    margin: 15px;
+
+    text-align: center;
+    position: relative;
+    line-height: 5vh;
+    border: solid;
+    border-color: #393E41;
+    border-width: 2px;
+    
+    
+
+    /*    box-shadow: 2px.3px;*/
+
+
+}
+
+.meal1 {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+}
+
+.meal2 {
+    position: absolute;
+    top: 30px;
+    left: 210px;
+}
+
+.so-sage1 {
+    position: absolute;
+    top: 30px;
+    left: 3px;
+}
+
+.so-sage2 {
+    position: absolute;
+    top: 30px;
+    left: 260px;
+}
+
+.yakisoba1 {
+    position: absolute;
+    top: 33px;
+    left: 10px;
+}
+
+.yakisoba2 {
+    position: absolute;
+    top: 33px;
+    left: 240px;
+}
+
+.okonomi1 {
+    position: absolute;
+    top: 20px;
+    left: 230px;
+    width: 70px;
+}
+
+.okonomi2 {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    width: 70px;
+}
+
+.juice1 {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 30px;
+}
+
+.juice2 {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    width: 30px;
+}
+
+.gyouza1 {
+    position: absolute;
+    top: 40px;
+    left: 200px;
+    width: 40px;
+}
+
+.gyouza2 {
+    position: absolute;
+    top: 40px;
+    left: 60px;
+}
+
+.kasutera1 {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.kasutera2 {
+    position: absolute;
+    top: 30px;
+    left: 240px;
+}
+
+.message {
+    overflow: hidden;
+    margin: 40px;
+    height: 100vh;
+    color: #393E41;
+    text-align: center;
+    line-height: 60px;
+}
+
+.para{
+padding-bottom: px;
+}
+
+h2 {
+    color: #FF5666;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.message h3 {
+    color: #393E41;
+    text-align: center;
+    font-size: 15px;
+}
+
+.img {
+    background-color: #FF5666;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.information {
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 7vh;
+}
+
+.your-class {
+    height: 80%;
+    width: 100%;
+    padding: 10vh 0;
+}
+
+.content {
+    width: 70%;
+    height: 60%;
+    margin: 0 auto;
+}
+
+.department {
+    color: #FF5666;
+}
+
+#red {
+    color: red;
+}
+
+#pink {
+    color: pink;
+}
+
+#orange {
+    color: orange;
+}
+
+#rightblue {
+    color: aqua;
+}
+
+#yellow {
+    color: yellow;
+}
+
+#green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+#black {
+    color: black;
+}
+
+.topic {
+    width: 100vh;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.topic_name {
+    margin-bottom: 15vh;
+}
+
+.back {}
+
+
+.lastcontent {
+    height: 50vh;
+
+    background-color: #393E41;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FAFAFA;
+
+}
+
+.i {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 40px;
+    background: #393E41;
+
+}
+
+.twitter {
+    background-color: #393E41;
+    color: #fff;
+
+}
+
+.facebook {
+
+    background-color: #393E41;
+    color: #FAFAFA;
+    background-size: cover;
+   
+}
+
+.instagram {
+
+    background-color: #393E41;
+    background-size: cover;
+
+    color: #FAFAFA;
+
+}
+
+.fes {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 40px;
+ background: #393E41;
+}
+.link {
+    display: flex;
+   justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 40px;
+}
+.gakuin {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    float: none;
+
+}
+
+.next {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    float: none;
+    
+
+}
+
+
+footer {
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #393E41;
+}
+
+.twitter {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    overflow: hidden;
+}
