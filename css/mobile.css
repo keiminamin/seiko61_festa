@@ -4,16 +4,24 @@
 
 
 }
-#nav-drawer{
-display: none;
 
+html {
+    width: 100vw;
 }
+
 body {
     background-color: #fafafafa;
     background-color: #fafafafa;
     font-family: tbchibirgothicplusk-pro, sans-serif;
     font-style: normal;
     font-weight: 400;
+}
+
+.not_for_mobile{
+    height:100px;
+    width:100px;
+    background-color: #db1919;
+    display: none;
 }
 
 p {
@@ -28,24 +36,25 @@ h1 {
 
 }
 
+.image {
+    display: none;
+}
+
 h2 {
     text-align: center;
 }
-
-
 
 header {
     overflow: hidden;
     background: rgba(0, 0, 0, 0.7);
     background-image: url(/img/stage.jpg);
     background-size: cover;
+
     height: 107vh;
     background-blend-mode: darken;
-
+    
 
 }
-
-
 
 
 h3 {
@@ -126,7 +135,7 @@ nav {
     border: solid 10px #fafafa;
     font-size: 32px;
     transition: 0.4s;
-     opacity: 0.8;
+    opacity: 0.8;
 }
 
 .food_title:hover,
@@ -154,7 +163,7 @@ nav {
     width: 240px;
     height: 240px;
     font-size: 40px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
@@ -169,7 +178,7 @@ nav {
 .exhbit_title {
     color: #FAFAFA;
     display: block;
-/*    margin-top: 80px;*/
+    /*    margin-top: 80px;*/
 }
 
 .event {
@@ -186,23 +195,23 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-   
+
+
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
-   
+
 }
 
 .event:hover {
     opacity: 0.8;
     transition: 0.3s;
-    
+
 }
 
 .event_title {
     color: #FAFAFA;
     display: block;
-   
-/*    margin-top: 80px;*/
+
+    /*    margin-top: 80px;*/
 }
 
 .access {
@@ -216,7 +225,7 @@ nav {
     width: 240px;
     height: 240px;
     font-size: 35px;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000, endColorstr=#66000000);
@@ -231,7 +240,7 @@ nav {
 .access_title {
     color: #FAFAFA;
     display: block;
-/*    margin-top: 90px;*/
+    /*    margin-top: 90px;*/
 }
 
 .date {
@@ -294,6 +303,7 @@ a.list:hover {
     border-right: none;
     border-color: #FF5666;
 
+
 }
 
 .last:hover {
@@ -315,8 +325,9 @@ a.list:hover {
 
 
 .message {
-    overflow: hidden;
-    margin: 40px;
+
+
+    margin: 0 auto;
     height: 100vh;
     color: #393E41;
     text-align: center;
@@ -348,7 +359,7 @@ h2 {
 
 .information {
     height: 100vh;
-    width: 100vh;
+    width: 100vw;
     margin: 0 auto;
     text-align: center;
     line-height: 7vh;
@@ -403,7 +414,7 @@ h2 {
 }
 
 .topic {
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     text-align: center;
     margin: 0 auto;
@@ -414,8 +425,8 @@ h2 {
 }
 
 .lastcontent {
-    height: 50vh;
-
+    height: 28vh;
+    width: 100%;
     background-color: #393E41;
 
     display: flex;
@@ -460,6 +471,8 @@ h2 {
 
 }
 
+
+/*
 .link {
     display: flex;
     justify-content: space-around;
@@ -467,6 +480,7 @@ h2 {
     width: 30%;
     margin-top: 40px;
 }
+*/
 
 .gakuin {
     text-align: center;
@@ -491,6 +505,7 @@ footer {
     text-align: center;
     color: #FAFAFA;
     background-color: #393E41;
+    width: 100%;
 }
 
 .twitter {
@@ -501,7 +516,101 @@ footer {
 }
 
 
+#nav-drawer {
+    position: relative;
+}
 
+/*チェックボックス等は非表示に*/
+.nav-unshown {
+    display: none;
+}
+
+/*アイコンのスペース*/
+#nav-open {
+    display: inline-block;
+    width: 30px;
+    height: 22px;
+    vertical-align: middle;
+}
+
+/*ハンバーガーアイコンをCSSだけで表現*/
+#nav-open span,
+#nav-open span:before,
+#nav-open span:after {
+    position: absolute;
+    height: 3px;
+    /*線の太さ*/
+    width: 25px;
+    /*長さ*/
+    border-radius: 3px;
+    background: #555;
+    display: block;
+    content: '';
+    cursor: pointer;
+}
+
+#nav-open span:before {
+    bottom: -8px;
+}
+
+#nav-open span:after {
+    bottom: -16px;
+}
+
+/*閉じる用の薄黒カバー*/
+#nav-close {
+    display: none;
+    /*はじめは隠しておく*/
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    /*全体に広がるように*/
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0;
+    transition: .3s ease-in-out;
+}
+
+#link {
+display:none;}
+
+/*中身*/
+#nav-content {
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    /*最前面に*/
+    width: 90%;
+    /*右側に隙間を作る（閉じるカバーを表示）*/
+    max-width: 330px;
+    /*最大幅（調整してください）*/
+    height: 100%;
+    background: #fff;
+    /*背景色*/
+    transition: .3s ease-in-out;
+    /*滑らかに表示*/
+    -webkit-transform: translateX(-105%);
+    transform: translateX(-105%);
+    /*左に隠しておく*/
+}
+
+/*チェックが入ったらもろもろ表示*/
+#nav-input:checked ~ #nav-close {
+    display: block;
+    /*カバーを表示*/
+    opacity: .5;
+}
+
+#nav-input:checked ~ #nav-content {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    /*中身を表示（右へスライド）*/
+    box-shadow: 6px 0 25px rgba(0, 0, 0, .15);
+}
 
 /*
 .foodbutton{

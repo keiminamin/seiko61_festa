@@ -4,8 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <title> SeikoFesta61st</title>
-    <link rel="stylesheet" href="css/style.css">
+
+
+
+
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" type="text/css" href="css/slick.css" />
 
     <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
@@ -13,7 +18,8 @@
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
+    <link rel="stylesheet" href="css/style.css" media="screen and (min-width: 768px)">
 
 
 </head>
@@ -21,33 +27,37 @@
 <body>
     <header>
 
-
-        <div class="image">
-            </div>
+        <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">ここに中身を入れる</div>
+        </div>
+        <div class="not_for_mobile">
             <div class="title">
                 <h1>聖光祭</h1>
                 <h2 class="date">５月２日▶︎５月３日</h2>
             </div>
 
-       
-        <div id="link" class="food">
 
-            <a class="food_title" href="food.html">食品</a>
-        </div>
-        <div id="link" class="exhbit">
+            <div id="link" class="food">
 
-            <a class="exhbit_title" href="ex.html">展示</a>
-        </div>
-        <div id="link" class="event">
+                <a class="food_title" href="food.html">食品</a>
+            </div>
+            <div id="link" class="exhbit">
 
-            <a class="event_title" href="event.html">企画</a>
-        </div>
-        <div id="link" class="access">
+                <a class="exhbit_title" href="ex.html">展示</a>
+            </div>
+            <div id="link" class="event">
 
-            <a class="access_title" href="access.html">アクセス</a>
-        </div>
-        
-<!--
+                <a class="event_title" href="event.html">企画</a>
+            </div>
+            <div id="link" class="access">
+
+                <a class="access_title" href="access.html">アクセス</a>
+            </div>
+
+            <!--
             <nav>
                 <ul>
                     <li><a class="list" href="food.html">Food</a></li>
@@ -61,7 +71,7 @@
 -->
 
 
-        <!--
+            <!--
             <div id="slider3" class="slider-pro">
                 <div class="sp-slides">
                     <div class="sp-slide">
@@ -76,8 +86,7 @@
                 </div>
             </div>
 -->
-
-
+        </div>
 
     </header>
 
@@ -175,23 +184,23 @@
 
         </div>
         <div class="lastcontent">
-           <div class="icon">
-            <a href="https://twitter.com/seikofes_60" target="_blank">
-                <!--           <div class="twitter" >-->
-                <i class="fab fa-twitter twitter fa-3x "></i>
-                <!--           </div>-->
-            </a>
-            <a href="https://www.facebook.com/seikofesta/" target="_blank">
-                <i class="fab fa-facebook-square facebook fa-3x"></i>
-            </a>
-            <a href="https://www.instagram.com/explore/tags/%E8%81%96%E5%85%89%E7%A5%AD/" target="_blank">
-                <i class="fab fa-instagram instagram fa-3x "></i>
-            </a>
-          </div>
-           <div class="link">
-            <a class="gakuin" href="http://seiko.ac.jp/">聖光学院</a>
-            <a class="next" href="http://seikofesta.official.jp/2019/home.html">聖光祭</a>
-           </div>
+            <div class="icon">
+                <a href="https://twitter.com/seikofes_60" target="_blank">
+                    <!--           <div class="twitter" >-->
+                    <i class="fab fa-twitter twitter fa-3x "></i>
+                    <!--           </div>-->
+                </a>
+                <a href="https://www.facebook.com/seikofesta/" target="_blank">
+                    <i class="fab fa-facebook-square facebook fa-3x"></i>
+                </a>
+                <a href="https://www.instagram.com/explore/tags/%E8%81%96%E5%85%89%E7%A5%AD/" target="_blank">
+                    <i class="fab fa-instagram instagram fa-3x "></i>
+                </a>
+            </div>
+            <div class="link">
+                <a class="gakuin" href="http://seiko.ac.jp/">聖光学院</a>
+                <a class="next" href="http://seikofesta.official.jp/2019/home.html">聖光祭</a>
+            </div>
 
         </div>
         <footer>&copy;聖光技術研究所</footer>
@@ -219,7 +228,6 @@
             //            });
 
             //        });
-
         </script>
 
 
@@ -229,8 +237,8 @@
                 //            $('.your-class').slick({
 
                 $('.your-class').slick({
-                    arrows:true,
-//                    fade:true,
+                    arrows: true,
+                    //                    fade:true,
                     dots: true,
                     infinite: true,
                     speed: 500,
@@ -242,7 +250,6 @@
                 //            });
 
             });
-
         </script>
 
 
@@ -257,7 +264,6 @@
                 //                minSlides: 3
             });
         });
-
     </script>
     <script>
         $(document).ready(function($) {
@@ -270,7 +276,6 @@
                 slideDistance: 1, //スライド同士の距離
             });
         });
-
     </script>
 
 </body>
