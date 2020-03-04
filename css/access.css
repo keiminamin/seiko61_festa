@@ -3,32 +3,38 @@
     padding: 0;
 }
 
-.main_title{
+.main_title {
     color: #393E41;
-/*
+    /*
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Anton', sans-serif;
 */
     font-family: halyard-display, sans-serif;
-font-style: normal;
-font-weight: 100;
+    font-style: normal;
+    font-weight: 100;
 
     font-size: 70px;
     border: none;
 }
+
 h3 {
     padding: 30px;
     font-size: 30px;
     color: #393E41;
-    
+
 }
-a{
-text-decoration: none;
+.access_mobile{
+display: none;
 }
-a:hover{
+a {
+    text-decoration: none;
+}
+
+a:hover {
     opacity: 0.3;
     transition: 0.3s;
 }
+
 body {
     color: #393E41;
     background-color: #FAFAFA
@@ -36,38 +42,50 @@ body {
 
 h2 {
     margin: 0 auto;
-    width: 50vh;
+    width: 30vw;
     text-align: center;
     padding: 20px;
     border-bottom: solid;
     border-bottom-width: 3px;
-    
+
 }
-p{
+
+p {
     line-height: 30px;
     text-align: center;
 
 }
-.caption{
+
+.caption {
     overflow: hidden;
     padding-top: 30px;
 }
-.care{
+
+.care {
     color: #FF5666;
 }
 
 nav {
     overflow: hidden;
-    margin-top: 5vh;
-  
-    margin-left: 65vh;
+    display: flex;
+    justify-content: center
 
 
 
 
 }
+ul {
+    
+    
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
 
+#nav-drawer{
 
+display: none;
+}
 li {
     list-style: none;
 
@@ -127,14 +145,18 @@ a.list:hover {
     display: block;
     /* border-radius: 30px;*/
     margin: 0 auto;
-    margin-top: 15vh;
+    margin-top: 5vh;
 
+}
+
+.school_mobile{
+display: none;
 }
 
 .container {
     overflow: hidden;
     margin: 0 auto;
-    height: 120vh;
+   
     padding: 30px;
 }
 
@@ -144,31 +166,30 @@ a.list:hover {
     padding: 30px;
 
 }
-.access{
-    
-    
-}
+
+.access {}
 
 .lastcontent {
-    height: 50vh;
-/*    width: 200vh;*/
+    height: 35vh;
+    /*    width: 200vh;*/
     background-color: #393E41;
     background-size: cover;
     overflow: hidden;
     color: #FAFAFA;
-   
-    
+
+
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-   
+
+
 }
-.icon{
+
+.icon {
     overflow: hidden;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     width: 40%;
     margin: 0 auto;
 }
@@ -178,7 +199,7 @@ a.list:hover {
 .twitter {
     background-color: #393E41;
     color: #fff;
-   
+
     overflow: hidden;
     text-decoration: none;
 }
@@ -188,7 +209,7 @@ a.list:hover {
     background-color: #393E41;
     color: #FAFAFA;
     background-size: cover;
-    
+
     text-decoration: none;
 }
 
@@ -196,35 +217,37 @@ a.list:hover {
 
     background-color: #393E41;
     background-size: cover;
-    
+
     color: #FAFAFA;
-    
+
     text-decoration: none;
 }
 
 .gakuin {
     text-align: center;
-    
+
     font-size: 3vh;
     color: #FAFAFA;
     background-color: #393E41;
     float: none;
-    
+
 }
+
 .link {
     display: flex;
-   justify-content: space-around;
+    justify-content: space-around;
     margin: 0 auto;
     width: 30%;
     margin-top: 40px;
 }
+
 .next {
-/*    text-align: center;*/
+    /*    text-align: center;*/
     font-size: 3vh;
     color: #FAFAFA;
     background-color: #393E41;
     float: none;
-   
+
 }
 
 
@@ -239,4 +262,8 @@ footer {
     height: 48px;
     background-size: cover;
     overflow: hidden;
+}
+
+access_mobile{
+display: none;
 }

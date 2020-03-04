@@ -26,11 +26,12 @@ h3 {
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
+   
 
     display: block;
-    margin-top: 80px;
-
+  margin-top: 50px;
+    
+justify-content: center;
 
 
 
@@ -40,13 +41,15 @@ nav {
 
 li {
     list-style: none;
+  
 
 
 }
 
 ul {
-    overflow: hidden;
-    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -183,15 +186,17 @@ p {
 
 
 .lastcontent {
-    height: 50vh;
+     height: 35vh;
 
     background-color: #393E41;
 
-
-    color: #FAFAFA;
-     display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
+    color: #FAFAFA;
+
+     
+   
 
 }
 
@@ -255,17 +260,21 @@ footer {
     overflow: hidden;
 }
 .icon {
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    width: 40%;
-    margin: 0 auto;
-}
-.link {
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
     width: 30%;
     margin-top: 40px;
+    background: #393E41;
+
+   
+}
+.link {
+ display: flex;
+   justify-content: space-around;
+    margin: 0 auto;
+    width: 30%;
+    margin-top: 40px;
+}
 
 }

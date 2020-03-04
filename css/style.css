@@ -1,3 +1,5 @@
+
+  
 * {
     margin: 0;
     padding: 0;
@@ -317,7 +319,8 @@ a.list:hover {
 .message {
     overflow: hidden;
     margin: 40px;
-    height: 100vh;
+    margin-top: 60px;
+   
     color: #393E41;
     text-align: center;
     line-height: 60px;
@@ -347,7 +350,7 @@ h2 {
 }
 
 .information {
-    height: 100vh;
+   height: 100vh;
     width: 100vh;
     margin: 0 auto;
     text-align: center;
@@ -355,17 +358,32 @@ h2 {
 }
 
 .your-class {
-    height: 80%;
+    
     width: 100%;
     padding: 10vh 0;
 }
 
+.arrow3{
+ position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.arrow4{
+ position: absolute;
+    top: 190px;
+    left: 780px;
+}
 .content {
     width: 70%;
     height: 60%;
     margin: 0 auto;
 }
-
+.content_img{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .department {
     color: #FF5666;
 }
@@ -401,10 +419,21 @@ h2 {
 #black {
     color: black;
 }
+#purple{
+color: purple;
+}
+#brown{
+color: brown;
+}
+#navy{
+color: navy;
+}
+#rouge{
+color:darkred;
+}
 
 .topic {
-    width: 100vh;
-    height: 100vh;
+   height:  50vh;
     text-align: center;
     margin: 0 auto;
 }
@@ -412,9 +441,12 @@ h2 {
 .topic_name {
     margin-bottom: 15vh;
 }
-
+.section_image{
+margin: 0 auto;
+   
+}
 .lastcontent {
-    height: 50vh;
+    height: 35vh;
 
     background-color: #393E41;
 
@@ -500,7 +532,9 @@ footer {
     overflow: hidden;
 }
 
+.slick-slide img{
 
+}
 
 
 /*

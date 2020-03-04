@@ -6,7 +6,7 @@
     <title> SeikoFesta61st</title>
 
 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 
@@ -18,8 +18,8 @@
     <link rel="stylesheet" href="css/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 480px)">
-    <link rel="stylesheet" href="css/style.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="css/style.css" media="screen and (min-width: 1025px)">
 
 
 </head>
@@ -27,36 +27,116 @@
 <body>
     <header>
 
+        <div class="header-logo">
+       
+      
         <div id="nav-drawer">
             <input id="nav-input" type="checkbox" class="nav-unshown">
             <label id="nav-open" for="nav-input"><span></span></label>
             <label class="nav-unshown" id="nav-close" for="nav-input"></label>
-            <div id="nav-content">ここに中身を入れる</div>
+            <div id="nav-content">
+
+                <a href="index.html" class="bar_title">60th seikofesta</a>
+                <div class="link_block">
+
+                    <div id="exhbi" class="box">
+                        <p class="link_title">展示</p>
+                        <a href="ex.html" 　class="link_title">
+                            <img class="icon_link" src="img/glass.png" width="120px" alt=""></a>
+
+
+                    </div>
+                    <div id="food" class="box">
+                        <p class="link_title">食品</p>
+                        <a href="food.html">
+                            <img class="icon_link" src="img/folk.png" width="120px" alt=""></a>
+
+                        　　　　　　　　　　　　　　　　　
+                    </div>
+                    <div id="event" class="box">
+
+                        <a class="link_title" href="event.html">
+                            <img class="icon_link" src="img/mike.png" width="120px" alt="">
+                        </a>
+                        　<p class="link_title">企画</p>
+
+
+                    </div>
+
+                    <div id="access" class="box">
+
+                        <a class="link_title" href="access.html">
+                            <img class="icon_link" src="img/train.png" width="120px" alt=""></a>
+                        　<p class="link_title">　アクセス</p>
+
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="icon_model">
+                    <a href="https://twitter.com/seikofes_60" target="_blank">
+                        <!--           <div class="twitter" >-->
+                        <i class="fab fa-twitter twitter2 fa-3x "></i>
+                        <!--           </div>-->
+                    </a>
+                    <a href="https://www.facebook.com/seikofesta/" target="_blank">
+                        <i class="fab fa-facebook-square facebook2 fa-3x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/explore/tags/%E8%81%96%E5%85%89%E7%A5%AD/" target="_blank">
+                        <i class="fab fa-instagram instagram2 fa-3x "></i>
+                    </a>
+                </div>
+
+            </div>
         </div>
+        
+         <p class="mobile_main_title">SeikoFesta61st</p>
+          </div>
+
+
+
+        <div class="title">
+            <h1>聖光祭</h1>
+            <h2 class="date">６月６日▶︎６月７日</h2>
+        </div>
+
+
+
         <div class="not_for_mobile">
             <div class="title">
                 <h1>聖光祭</h1>
                 <h2 class="date">５月２日▶︎５月３日</h2>
             </div>
 
+            <a class="food_title" href="food.html">
+                <div id="link" class="food">
 
-            <div id="link" class="food">
+                    食品
+                </div>
+            </a>
+            <a class="exhbit_title" href="ex.html">
+                <div id="link" class="exhbit">
 
-                <a class="food_title" href="food.html">食品</a>
-            </div>
-            <div id="link" class="exhbit">
+                    展示
+                </div>
+            </a>
 
-                <a class="exhbit_title" href="ex.html">展示</a>
-            </div>
-            <div id="link" class="event">
+            <a class="event_title" href="event.html">
+                <div id="link" class="event">
 
-                <a class="event_title" href="event.html">企画</a>
-            </div>
-            <div id="link" class="access">
+                    企画
+                </div>
+            </a>
 
-                <a class="access_title" href="access.html">アクセス</a>
-            </div>
+            <a class="access_title" href="access.html">
+                <div id="link" class="access">
 
+                    アクセス
+                </div>
+            </a>
             <!--
             <nav>
                 <ul>
@@ -97,11 +177,11 @@
     <div class="wrapper">
 
         <div class="message">
-            <h2>Message</h2>
 
 
 
-            <div class="img"></div>
+
+            <img class="head" src="img/siikoubu.png" width="500px" alt="">
             <h3>実行委員長から</h3>
             <p>年々成長し、進化を続ける聖光祭は今年で60年目。<br>
                 スローガン "NEXIT" は記念となる今年の文化祭を一つの節目として、次の世代へ継承していこうという願いを込め、<br>next と exit を組み合わせて創りました。<br>
@@ -111,69 +191,137 @@
         </div>
 
         <div class="information">
-            <h2>Introduction</h2>
+
 
             <div class="your-class">
                 <div class="content">
-                    <div class="img"></div>
+                    <div class="content_img">
+
+                        <img class="section_image" src="img/unei.png" width="400px" alt="">
+
+
+                    </div>
                     <i class="fas fa-tshirt" id="pink"></i>
                     <p class="department">執行部</p>
                     <p>61年目となる聖光祭、<br>私たち、執行部が皆様のご来場を心からお待ちしています。</p>
 
                 </div>
                 <div class="content">
+                    <a href="food.html">
+                        <div class="content_img">
 
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="red"></i>
-                    <p class="department">食品部門</p>
-                    <p>食欲をそそる音と匂い。焼きそば、お好み焼き...<br>ぜひ”聖光の味”をご堪能ください。　(部門長　)</p>
-                    <div class="foodbutton">
-                        <!--                        <a href="">food </a>-->
+                            <img class="section_image" src="img/syokuhin.png" width="400px" alt="">
+
+                        </div>
+                        <i class="fas fa-tshirt" id="red"></i>
+                        <p class="department">食品部門</p>
+                        <p>情熱を込めて作った料理でお客様に感動をお届けする食品部門員は、<br>赤色のTシャツを着用しています。　(部門長 田中璃央　)</p>
+                        <div class="foodbutton">
+                            <!--                        <a href="">food </a>-->
+                        </div>
+                    </a>
+
+
+                </div>
+                <div class="content">
+
+                    <a href="event.html">
+                        <div class="content_img">
+
+                            <img class="section_image" src="img/kikaku.png" width="400px" alt="">
+
+                        </div>
+                        <i class="fas fa-tshirt" id="orange"></i>
+                        <p class="department">企画部門</p>
+                        <p> 外ステージ企画やグランドフィナーレ、春夜祭を行う、<br>企画部門員はオレンジ色のTシャツを着用しています。　(部門長 田中舜 　)</p>
+
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="ex.html">
+                        <div class="content_img">
+
+                            <img class="section_image" src="img/tenji.png" width="400px" alt="">
+
+                        </div>
+                        <i class="fas fa-tshirt" id="rightblue"></i>
+                        <p class="department">展示部門</p>
+                        <p>展示大賞の対象となる各展示を行っている展示団体員は<br>水色のTシャツを着用しています。　(部門長 高橋律 　)</p>
+                    </a>
+                </div>
+                <div class="content">
+                    <a href="event.html">
+                        <div class="content_img">
+
+                            <img class="section_image" src="img/ensyutu.png" width="400px" alt="">
+
+                        </div>
+                        <i class="fas fa-tshirt" id="yellow"></i>
+                        <p class="department">演出部門</p>
+                        <p>ライブハウスの運営や、バンド大賞の企画を行っている演出部門員は<br>黄色のTシャツを着用しています。(部門長 　)</p>
+                    </a>
+                </div>
+                <div class="content">
+                    <div class="content_img">
+
+                        <img class="section_image" width="400px" src="img/bika.png" alt="">
+
                     </div>
-
-
-                </div>
-                <div class="content">
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="orange"></i>
-                    <p class="department">企画部門</p>
-                    <p>ステージ企画からグラフィナまで！<br>もっと熱く！もっと激しく盛り上がろう　(部門長 田中　)</p>
-                </div>
-                <div class="content">
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="rightblue"></i>
-                    <p class="department">展示部門</p>
-                    <p>全ての展示団体の中でトップを決めよう　<br>お帰りの際は展示大賞の投票をお忘れなく！　(部門長 　)</p>
-                </div>
-                <div class="content">
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="yellow"></i>
-                    <p class="department">演出部門</p>
-                    <p>どこへ行くか迷ったらライブハウスへ！<br>盛り上がること間違いなし！(部門長 　)</p>
-                </div>
-                <div class="content">
-                    <div class="img"></div>
                     <i class="fas fa-tshirt" id="green"></i>
                     <p class="department">美化部門</p>
-                    <p>ゴミの分別、回収は僕たちに。<br>目指すは聖光祭に落ちてるゴミ０！（美化部門長　）</p>
+                    <p>ゴミの受け取りや収集、校内清掃を担当する美化部門員は、<br>緑色のTシャツを着用しています。（美化部門長 阿南哲史　）</p>
+                </div>
+
+                <div class="content">
+                    <a href="access.html">
+                        <div class="content_img">
+
+                            <img width="400px" class="section_image" src="img/gaimu.png" alt="">
+
+                        </div>
+                        <i class="fas fa-tshirt" id="black"></i>
+                        <p class="department">外務部門</p>
+                        <p>お困りごとは気軽にご相談ください。案内や手荷物預かり所を担当する外務部門員は<br>黒色のTシャツを着用しています。（外務部門長 星野透大　）</p>
+                    </a>
+                </div>
+
+                <div class="content">
+                    <div class="content_img">
+
+                        <img width="400px" class="section_image" src="img/sousyoku.png" alt="">
+
+                    </div>
+                    <i class="fas fa-tshirt" id="navy"></i>
+                    <p class="department">装飾部門</p>
+                    <p>日々積み重ねた努力と、洗練された技。最高の祭を鮮やかに彩る装飾部門員は、<br>紺色のTシャツを着用しています（装飾部門長 菅達幹 ）</p>
                 </div>
                 <div class="content">
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="blue"></i>
-                    <p class="department">展示団体</p>
-                    <p>鉄道からポケモンまで個性あふれる展示たち。<br>あなたの”好き”もきっと見つかる。（展示団体長　）</p>
+                    <div class="content_img">
+
+                        <img class="section_image" src="img/kaikei.png" width="400px" alt="">
+
+                    </div>
+                    <i class="fas fa-tshirt" id="purple"></i>
+                    <p class="department">会計部門</p>
+                    <p>模擬店、屋台等のレジを担当する、<br>会計部門員は紫色のTシャツを着用しています。（会計部門長　西堀輝彦　　）</p>
                 </div>
                 <div class="content">
-                    <div class="img"></div>
-                    <i class="fas fa-tshirt" id="black"></i>
-                    <p class="department">外務部門</p>
-                    <p>学校の案内は僕たちに任せてください。<br>聖光祭で迷ったら僕たちのところへ！（外務部門長　）</p>
+                    <div class="content_img">
+
+                        <img class="section_image" src="img/kanri.png" width="400px" alt="">
+
+                    </div>
+                    <i class="fas fa-tshirt" id="rouge"></i>
+                    <p class="department">管理部門</p>
+                    <p>机や椅子、その他の備品や資材の管理を担当する、<br>
+                        管理部門はえんじ色のTシャツを着用しています。（管理部門長　）</p>
                 </div>
+
 
             </div>
         </div>
         <div class="topic">
-            <h2 class="topic_name">Topic</h2>
+
             <ul class="bxslider">
                 <li><img src="img/school.png" alt="" width="640" height="300"></li>
                 <li><img src="img/school.png" alt="" width="640" height="300"></li>
@@ -203,7 +351,7 @@
             </div>
 
         </div>
-        <footer>&copy;聖光技術研究所</footer>
+        <footer>&copy;聖光総合技術研究所</footer>
 
 
 
@@ -228,6 +376,7 @@
             //            });
 
             //        });
+
         </script>
 
 
@@ -237,19 +386,25 @@
                 //            $('.your-class').slick({
 
                 $('.your-class').slick({
+                    autoplay: true,
+                    autoplaySpeed: 4000,
                     arrows: true,
+                    fade: true,
                     //                    fade:true,
-                    dots: true,
-                    infinite: true,
-                    speed: 500,
-                    slidesToShow: 1,
+
+                    spped: 500,
+                    prevArrow: true,
+                    prevArrow: '<img class="arrow3" width="40px" src="img/arrow1.png" alt="">',
+                    nextArrow: '<img class="arrow4" width="40px" src="img/arrow2.png" alt="">',
                     adaptiveHeight: true,
+
                 });
 
 
                 //            });
 
             });
+
         </script>
 
 
@@ -264,18 +419,24 @@
                 //                minSlides: 3
             });
         });
+
     </script>
     <script>
         $(document).ready(function($) {
             $('#slider3').sliderPro({
                 width: '100%', //横幅
-                arrows: true, //左右の矢印を出す
+                arrows: false, //左右の矢印を出す
                 buttons: true, //ナビゲーションボタンを出す
                 aspectRatio: 1.5, //スライドのアスペクト比
                 forceSize: 'fullWindow', //ウィンドウ内全画面表示
                 slideDistance: 1, //スライド同士の距離
+                autoplay: true,
+                autoplaySpeed: 5,
+
+
             });
         });
+
     </script>
 
 </body>

@@ -60,14 +60,17 @@ li {
 
 
 }
+#nav-drawer{
 
+display: none;
+}
 ul {
     overflow: hidden;
 
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 70px;
 
 }
 
@@ -513,7 +516,7 @@ footer {
     }
 
     .lastcontent {
-        height: 50vh;
+        height: 35vh;
 
         background-color: #393E41;
         display: flex;

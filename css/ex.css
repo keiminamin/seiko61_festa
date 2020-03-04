@@ -25,16 +25,22 @@ h3 {
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
-
-    display: block;
-    margin-top: 80px;
-
+    
+margin-top: 70px;
 
 
 
 }
 
+ul {
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
 
 
 li {
@@ -131,7 +137,7 @@ a.list:hover {
 }
 
 .slide-dots li button {
-    border: 1px solid #000;
+
     background-color: #fafafafa;
     color: #fff;
     margin: 0 8px;
@@ -191,6 +197,13 @@ a.list:hover {
 
 
 }
+.mobile_title{
+display: none;
+}
+.mobile_01{
+    
+    display: none;
+}
 
 th {
     border-bottom: 1px solid #d3d3d3;
@@ -230,7 +243,7 @@ background: #3bc14a;
 }
 .lastcontent {
 
-    height: 50vh;
+    height: 35vh;
 
     background-color: #393E41;
 
@@ -314,3 +327,10 @@ footer {
     background-size: cover;
     overflow: hidden;
 }
+#nav-drawer{
+display: none;
+}
+/*
+#slick-slide-control01{
+display: none;
+}*/

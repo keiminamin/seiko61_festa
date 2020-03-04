@@ -30,13 +30,21 @@ h2 {
     font-size: 70px;
 }
 
+.link_group{
+display: flex;
+    justify-content: center;
+}
+
 header {
-    overflow: hiddenzs
+    overflow: hidden;
 }
 
 
 
+#nav-drawer{
+display: none;
 
+}
 h3 {
     padding: 30px;
     font-size: 30px;
@@ -45,9 +53,8 @@ h3 {
 
 nav {
     overflow: hidden;
-    margin-left: 64vh;
-    margin-top: 80px;
-    display: block;
+   
+
 
 
 
@@ -62,8 +69,11 @@ li {
 }
 
 ul {
-    overflow: hidden;
-    margin: 0 auto;
+    
+    
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
 }
 
 a {
@@ -142,6 +152,9 @@ a.list:hover {
     padding: 120px;
     overflow: hidden;
 }
+.container_model{
+display: none;
+}
 
 .food_map {
     display: block;
@@ -205,6 +218,9 @@ a.list:hover {
 
 
 }
+.food_mobile{
+display: none;
+}
 
 .meal1 {
     position: absolute;
@@ -216,6 +232,19 @@ a.list:hover {
     position: absolute;
     top: 30px;
     left: 210px;
+}
+
+.meal3{
+ position: absolute;
+    top: 37px;
+    left: 31px;
+ 
+
+}
+.meal4 {
+    position: absolute;
+    top: 37px;
+    left: 231px;
 }
 
 .so-sage1 {
@@ -402,7 +431,7 @@ h2 {
 
 
 .lastcontent {
-    height: 50vh;
+    height: 35vh;
 
     background-color: #393E41;
 

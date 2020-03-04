@@ -88,11 +88,11 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+   
 }
 
 .slick-next
@@ -106,11 +106,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    
 }
 
 /* Dots */
@@ -147,7 +147,7 @@
     width: 20px;
     height: 20px;
 */
-    margin: 0 20px;
+    
     padding: 0;
 
     cursor: pointer;
@@ -157,11 +157,18 @@
      border-bottom: solid 2px #FF5666
 }
 */
-.slick-dots li button
-{
+.slick-dots li button{
+    
+
+
     font-size: 0;
     line-height: 0;
-
+    
+}
+ ul.slick-dots{
+display: flex;
+     justify-content: center;
+}
   
 
 /*

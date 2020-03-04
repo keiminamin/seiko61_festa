@@ -4,41 +4,122 @@
 <head>
     <meta charset="UTF-8">
     <title>SeikoFesta61st_food</title>
-    <link rel="stylesheet" href="/css/food.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Josefin+Sans&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/mobile_food.css" media="screen and (max-width: 1024px)">
+    <link rel="stylesheet" href="css/food.css" media="screen and (min-width: 1025px)">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <h3>60th seikofesta</h3>
+            <h3 class="fes_title">60th seikofesta</h3>
         </a>
+         <h2 class="main_title">Food</h2>
+
+        <nav class="link_group">
+
+            <ul>
+               
+                <li><a class="list" href="ex.html">展示</a></li>
+                 <li><a class="list" href="access.html">アクセス</a></li>
+                <li><a class="last" href="event.html">企画</a></li>
 
 
-        <div class="info">
-            <h2 class="main_title">Food</h2>
-            <nav>
-                <ul>
-                    <!--                    <li><a id="now" class="list" href="food.html">食品</a></li>-->
-                    <li><a class="list" href="ex.html">展示</a></li>
-                    <li><a class="list" href="event.html">企画</a></li>
-                    <li><a class="last" href="access.html">アクセス</a></li>
+            </ul>
+        </nav>
+        <div class="header-logo">
+        <div id="nav-drawer">
+            <input id="nav-input" type="checkbox" class="nav-unshown">
+            <label id="nav-open" for="nav-input"><span></span></label>
+            <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+            <div id="nav-content">
+                <a href="index.html" class="bar_title">60th seikofesta</a>
+                <div class="link_block">
 
-                </ul>
-            </nav>
-            <!--
+                    <div id="exhbi" class="box">
+                        <p class="link_title">展示</p>
+                        <a href="ex.html" 　class="link_title">
+                            <img class="link_img" src="img/glass.png" width="120px" alt=""></a>
+
+
+                    </div>
+                    <div id="food" class="box">
+                        <p class="link_title">食品</p>
+                        <a>
+                            <img class="link_img" src="img/folk.png" width="120px" alt=""></a>
+
+                        　　　　　　　　　　　　　　　　　
+                    </div>
+                    <div id="event" class="box">
+                        <div class="image">
+                            <a class="link_title" href="event.html">
+                                <img class="link_img" src="img/mike.png" width="120px" alt="">
+                            </a>
+                            　<p class="link_title">企画</p>
+                        </div>
+
+                    </div>
+
+                    <div id="access" class="box">
+                        <div class="image">
+                            <a class="link_title" href="access.html">
+                                <img class="link_img" src="img/train.png" width="120px" alt=""></a>
+                            　<p class="link_title">　アクセス</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="i2">
+                    <a href="https://twitter.com/seikofes_60" target="_blank">
+                        <!--           <div class="twitter" >-->
+                        <i class="fab fa-twitter twitter2 fa-3x "></i>
+                        <!--           </div>-->
+                    </a>
+                    <a href="https://www.facebook.com/seikofesta/" target="_blank">
+                        <i class="fab fa-facebook-square facebook2 fa-3x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/explore/tags/%E8%81%96%E5%85%89%E7%A5%AD/" target="_blank">
+                        <i class="fab fa-instagram instagram2 fa-3x "></i>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+
+
+          
+            <div class="info">
+               
+                <nav>
+                    <ul>
+                        <!--                    <li><a id="now" class="list" href="food.html">食品</a></li>-->
+                        <li><a class="list" href="ex.html">展示</a></li>
+                        <li><a class="list" href="event.html">企画</a></li>
+                        <li><a class="last" href="access.html">アクセス</a></li>
+
+                    </ul>
+                </nav>
+                <!--
             <div class="image">
                 <img class="school" src="img/school.png" alt="" 
                 width="1200px">
                 
-               
+          
             </div>
 -->
+
+            </div>
         </div>
-
-
+        <p>61stSeikoFesta</p>
+    </div>
     </header>
 
     <div class="container">
@@ -51,12 +132,26 @@
 
         <div class="food">
             <h3 class="food_name">塩焼きそば</h3>
-            <img class="yakisoba1" src="img/yakisoba.png.005.png" width="40px" alt="">
-            <img class="yakisoba2" src="img/yakisoba.png.005.png" width="40px" alt="">
+            <img class="meal3" src="img/yakisoba.png.005.png" width="40px" alt="">
+            <img class="meal4" src="img/yakisoba.png.005.png" width="40px" alt="">
             <img src="img/yakisoba_real.jpg" width="200px" alt="">
-
             <div class="para">
-            <p>遂に12年目を迎える聖光祭一の伝統の味！<br>年とともに職人たちの腕もますます上がっていく！！</p>
+                <p>ケバブ毎年大人気「俺のケバブ」<br>今年のケバブはより香ばしく、よりジューシーに！お食事は是非、「俺のケバブ」で。</p>
+            </div>
+        </div>
+
+        <div class="food_mobile">
+
+
+            <img src="img/yakisoba_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img class="yakisoba1" src="img/yakisoba.png.005.png" width="40px" alt="">
+
+                <h3 class="food_name">塩焼きそば</h3>
+                <img class="yakisoba2" src="img/yakisoba.png.005.png" width="40px" alt="">
+            </div>
+            <div class="para">
+                <p>遂に12年目を迎える聖光祭一の伝統の味！<br>年とともに職人たちの腕もますます上がっていく！！</p>
             </div>
         </div>
         <div class="food">
@@ -66,10 +161,24 @@
             <img class="meal2" src="img/kebabu.png" width="40px" alt="">
             <img src="img/kebabu_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>ケバブ毎年大人気「俺のケバブ」<br>今年のケバブはより香ばしく、よりジューシーに！お食事は是非、「俺のケバブ」で。</p>
+                <p>ケバブ毎年大人気「俺のケバブ」<br>今年のケバブはより香ばしく、よりジューシーに！お食事は是非、「俺のケバブ」で。</p>
             </div>
 
 
+        </div>
+        <div class="food_mobile">
+
+
+            <img src="img/kebabu_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/kebabu.png" width="40px" alt="">
+
+                <h3 class="food_name">ケバブ</h3>
+                <img src="img/kebabu.png" width="40px" alt="">
+            </div>
+            <div class="para">
+                <p>ケバブ毎年大人気「俺のケバブ」<br>今年のケバブはより香ばしく、よりジューシーに！お食事は是非、「俺のケバブ」で。</p>
+            </div>
         </div>
         <div class="food">
 
@@ -78,7 +187,23 @@
             <img class="meal2" src="img/yakitori.png" width="40px" alt="">
             <img src="img/yakitori_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>今年、聖光の焼き鳥は進化を遂げる<br>これぞ焼き鳥の極致！気になる方は店舗へどうぞ！</p>
+                <p>今年、聖光の焼き鳥は進化を遂げる<br>これぞ焼き鳥の極致！気になる方は店舗へどうぞ！</p>
+            </div>
+        </div>
+
+
+        <div class="food_mobile">
+
+
+            <img src="img/yakitori_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/yakitori.png" width="40px" alt="">
+
+                <h3 class="food_name">焼き鳥</h3>
+                <img src="img/yakitori.png" width="40px" alt="">
+            </div>
+            <div class="para">
+                <p>今年、聖光の焼き鳥は進化を遂げる<br>これぞ焼き鳥の極致！気になる方は店舗へどうぞ！</p>
             </div>
         </div>
         <div class="food">
@@ -87,7 +212,23 @@
             <img class="okonomi2" src="img/okonomi.png" width="40px" alt="">
             <img src="img/okonomi_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>チーズもち復活！伝統の豚玉はもちろん、<br>さらに美味しくなったお好み焼きを召し上がれ！！</p>
+                <p>チーズもち復活！伝統の豚玉はもちろん、<br>さらに美味しくなったお好み焼きを召し上がれ！！</p>
+            </div>
+        </div>
+
+
+        <div class="food_mobile">
+
+
+            <img src="img/okonomi_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/okonomi.png" width="60px" alt="">
+
+                <h3 class="food_name">お好み焼き</h3>
+                <img src="img/okonomi.png" width="60px" alt="">
+            </div>
+            <div class="para">
+                <p>チーズもち復活！伝統の豚玉はもちろん、<br>さらに美味しくなったお好み焼きを召し上がれ！！</p>
             </div>
         </div>
         <div class="food">
@@ -96,7 +237,22 @@
             <img class="gyouza2" src="img/gyouza.png.003.png" width="40px" alt="">
             <img src="img/gyouza_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>食欲をそそる匂いと共に、<br>お客様を必ず満足させます！</p>
+                <p>食欲をそそる匂いと共に、<br>お客様を必ず満足させます！</p>
+            </div>
+        </div>
+
+        <div class="food_mobile">
+
+
+            <img src="img/gyouza_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/gyouza.png.003.png" width="60px" alt="">
+
+                <h3 class="food_name">餃子</h3>
+                <img src="img/gyouza.png.003.png" width="60px" alt="">
+            </div>
+            <div class="para">
+                <p>食欲をそそる匂いと共に、<br>お客様を必ず満足させます！</p>
             </div>
         </div>
         <div class="food">
@@ -105,7 +261,23 @@
             <img class="kasutera2" src="img/kasutera.png.006.png" width="40px" alt="">
             <img src="img/kasutera_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>焼きカステラが聖光祭に初登場！ふわふわ甘々なカステラをご賞味あれ</p>
+                <p>焼きカステラが聖光祭に初登場！ふわふわ甘々なカステラをご賞味あれ</p>
+            </div>
+        </div>
+
+
+        <div class="food_mobile">
+
+
+            <img src="img/kasutera_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/kasutera.png.006.png" width="60px" alt="">
+
+                <h3 class="food_name">焼きカステラ</h3>
+                <img src="img/kasutera.png.006.png" width="60px" alt="">
+            </div>
+            <div class="para">
+                <p>食欲をそそる匂いと共に、<br>お客様を必ず満足させます！</p>
             </div>
         </div>
         <div class="food">
@@ -114,7 +286,22 @@
             <img class="so-sage2" src="img/so-sage.png" width="40px" alt="">
             <img src="img/so-sage_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください。</p>
+                <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください。</p>
+            </div>
+        </div>
+
+        <div class="food_mobile">
+
+
+            <img src="img/so-sage_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/so-sage.png" width="40px" alt="">
+
+                <h3 class="food_name">フランクフルト</h3>
+                <img src="img/so-sage.png" width="40px" alt="">
+            </div>
+            <div class="para">
+                <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください</p>
             </div>
         </div>
         <div class="food">
@@ -123,7 +310,22 @@
             <img class="meal2" src="img/seikofesta_map_img.002.png" width="40px" alt="">
             <img src="img/crape_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください。</p>
+                <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください。</p>
+            </div>
+        </div>
+
+        <div class="food_mobile">
+
+
+            <img src="img/crape_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/seikofesta_map_img.002.png" width="40px" alt="">
+
+                <h3 class="food_name">クレープ</h3>
+                <img src="img/seikofesta_map_img.002.png" width="40px" alt="">
+            </div>
+            <div class="para">
+                <p>おやつにもごはんにも！！<br>焼き立てのフランクフルトを安価で提供。ぜひご賞味ください</p>
             </div>
         </div>
         <div class="food">
@@ -132,7 +334,22 @@
             <img class="meal2" src="img/ice.png.004.png" width="40px" alt="">
             <img src="img/kakigori_real.png" width="200px" alt="">
             <div class="para">
-            <p>今年もかき氷は、たくさんの味を用意して店員一同待ってます！<br>体の芯までキンッキンに冷やしてやるぜ！</p>
+                <p>今年もかき氷は、たくさんの味を用意して店員一同待ってます！<br>体の芯までキンッキンに冷やしてやるぜ！</p>
+            </div>
+        </div>
+
+        <div class="food_mobile">
+
+
+            <img src="img/kakigori_real.png" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/ice.png.004.png" width="30px" alt="">
+
+                <h3 class="food_name">かき氷</h3>
+                <img src="img/ice.png.004.png" width="30px" alt="">
+            </div>
+            <div class="para">
+                <p>今年もかき氷は、たくさんの味を用意して店員一同待ってます！<br>体の芯までキンッキンに冷やしてやるぜ！</p>
             </div>
         </div>
         <div class="food">
@@ -141,11 +358,26 @@
             <img class="juice2" src="img/drink.png.007.png" width="30px" alt="">
             <img src="img/drink_real.jpg" width="200px" alt="">
             <div class="para">
-            <p>疲れた時に一本どうでしょうか❓<br>きっと飲み物があなたの喉を潤すでしょう‼️</p>
+                <p>疲れた時に一本どうでしょうか❓<br>きっと飲み物があなたの喉を潤すでしょう‼️</p>
+            </div>
+        </div>
+
+
+        <div class="food_mobile">
+
+
+            <img src="img/drink_real.jpg" width="300px" alt="">
+            <div class="food_caption">
+                <img src="img/drink.png.007.png" width="20px" alt="">
+
+                <h3 class="food_name">ドリンク</h3>
+                <img src="img/drink.png.007.png" width="20px" alt="">
+            </div>
+            <div class="para">
+                <p>疲れた時に一本どうでしょうか❓<br>きっと飲み物があなたの喉を潤すでしょう‼️</p>
             </div>
         </div>
     </div>
-
 
 
 
@@ -181,7 +413,7 @@
         </div>
 
     </div>
-    <footer>&copy;聖光技術研究所</footer>
+    <footer>&copy;聖光総合技術研究所</footer>
 
 </body>
 
