@@ -2,14 +2,9 @@
     margin: 0;
     padding: 0;
 }
-html{
-width: 100vw;
 
-}
 body {
     
-    background: #fafafa;
-    color: #393E41;
     padding-top: 5vh;
 }
 
@@ -22,6 +17,276 @@ body {
     font-weight: 100;
     font-size: 70px;
 
+}
+
+h3 {
+    padding: 30px;
+    font-size: 25px;
+    display: none;
+
+}
+
+
+
+nav {
+    overflow: hidden;
+   
+
+    display: block;
+  margin-top: 50px;
+    
+justify-content: center;
+
+
+
+}
+
+
+
+li {
+    list-style: none;
+  
+
+
+}
+
+ul {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #393E41;
+}
+
+a:hover {
+    opacity: 0.3;
+    transition: 0.3s
+}
+
+
+a.list {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 50px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: solid;
+    border-color: #FF5666;
+
+
+
+}
+
+a.list:hover {
+    opacity: 0.5;
+    transition: 0.1s;
+}
+
+.container {
+
+    overflow: hidden;
+   
+    margin-top: 60px;
+
+}
+
+.pokesen {
+    text-align: none;
+    
+    font-size: 30px;
+    color: #FF5666;
+    border-bottom: 2px dashed #FF5666;
+    border-top: 2px dashed #FF5666;
+   padding: 10px;
+    margin-top: 5vh;
+   
+}
+
+.pokemon {
+   display: none;
+  
+
+}
+
+.caption {
+    margin: 0 auto;
+    padding-top: 120px;
+
+
+
+}
+
+.detail {
+   
+
+    margin: 0 auto;
+
+
+
+}
+.para{
+padding: 20px;
+    
+    padding-top: 35px;
+    text-align: center;
+   
+}
+p {
+ 
+    line-height: 4vh;
+    color: #393E41;
+   
+   
+
+
+
+}
+
+.title {}
+
+.last {
+    color: #393E41;
+
+
+    float: left;
+    text-decoration: none;
+    padding: 0px 40px;
+    font-size: 30px;
+    font-family: 'Muli', sans-serif;
+    border-right: none;
+    border-color: #FF5666;
+
+}
+
+.explain {
+    color: rgb(63, 142, 252);
+}
+
+.main_title {
+    color: #393E41;
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.back {
+    background: #FF5666;
+    color: #fafafafa;
+    display: inline-block;
+    width: 70px;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    font-family: halyard-display, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    margin-left: 550px;
+    /*    margin-top: 25px;*/
+}
+
+.back:hover {
+    color: #fafafafa;
+    background: #FF5666;
+    opacity: 1.0;
+}
+
+
+
+.lastcontent {
+     height: 35vh;
+
+    background-color: #393E41;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FAFAFA;
+
+     
+   
+
+}
+
+.twitter {
+    background-color: #393E41;
+    color: #fff;
+    
+    overflow: hidden;
+}
+
+.facebook {
+
+    background-color: #393E41;
+    color: #FAFAFA;
+    background-size: cover;
+    
+    
+}
+
+.instagram {
+
+    background-color: #393E41;
+    background-size: cover;
+   
+   
+   
+    color: #FAFAFA;
+    
+}
+
+.gakuin {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    float: none;
+    
+}
+
+.next {
+    text-align: center;
+    font-size: 3vh;
+    color: #FAFAFA;
+    background-color: #393E41;
+    float: none;
+   
+   
+}
+
+
+footer {
+    text-align: center;
+    color: #FAFAFA;
+    background-color: #393E41;
+}
+
+.twitter {
+    width: 48px;
+    height: 48px;
+    background-size: cover;
+    overflow: hidden;
+}
+.icon {
+    display: flex;
+    justify-content: space-around;
+   
+    margin-top: 40px;
+    background: #393E41;
+
+   
+}
+.link {
+ display: flex;
+   justify-content: space-around;
+   
+    margin-top: 40px;
 }
 header{
     display: flex;
@@ -42,7 +307,7 @@ width: 90vw;
     z-index: 99;
     padding: 5px;
 }
-h2 {
+.main_title {
     padding: 30px;
     font-size: 25px;
     display: none;
@@ -149,20 +414,10 @@ margin: 50px;
     width: 300px;
 }
 
-.pokesen {
-    text-align: none;
-    margin-left: 100px;
-    font-size: 40px;
-    color: #FF5666;
-    border-bottom: 2px dashed #FF5666;
-    width: 1200px;
-    padding: 15px;
-    padding-left: 20px;
-}
 
 .pokemon {
-    float: left;
-    margin-right: 60px;
+  
+    
 
 }
 
@@ -175,17 +430,9 @@ margin: 50px;
 }
 
 .detail {
-    width: 1100px;
+   
 
     margin: 0 auto;
-
-
-
-}
-
-p {
-    padding: 10px;
-    line-height: 30px;
 
 
 
@@ -521,3 +768,4 @@ background: #fafafa;
     
     margin: 40px;
 }
+

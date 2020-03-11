@@ -29,7 +29,9 @@ display: none;
 a {
     text-decoration: none;
 }
-
+.mobile_main_title{
+display: none;
+}
 a:hover {
     opacity: 0.3;
     transition: 0.3s;

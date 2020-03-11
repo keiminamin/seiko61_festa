@@ -19,6 +19,7 @@ width: 90vw;
     position: fixed;
     color: #393E41;
     z-index: 99;
+    padding: 5px;
   
     
    
@@ -893,12 +894,14 @@ ul.slick-dots{
  position: absolute;
     top: 320px;
     left: 20px;
+    z-index: 99;
 }
 
 .arrow4{
  position: absolute;
     top: 320px;
  right: 20px;
+    z-index: 99;
 }
 /*
 .foodbutton{

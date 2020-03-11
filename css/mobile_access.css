@@ -6,6 +6,9 @@
 html {
     width: 100vw;
 }
+body{
+padding-top: 5vh;
+}
 
 .main_title {
     color: #393E41;
@@ -43,7 +46,9 @@ a:hover {
 
 body {
     color: #393E41;
-    background-color: #FAFAFA
+    background-color: #FAFAFA;
+   
+    
 }
 
 h2 {
@@ -54,6 +59,11 @@ h2 {
     border-bottom: solid;
     border-bottom-width: 3px;
 
+}
+
+header{
+display: flex;
+    justify-content: center;
 }
 .header-logo{
     
@@ -68,6 +78,8 @@ width: 90vw;
     position: fixed;
     color: #393E41;
     z-index: 99;
+    
+    padding: 5px;
   
     
    
@@ -343,7 +355,10 @@ footer {
     
     position: fixed;
      z-index: 99;
-   
+    position:relative;
+     
+     left: -12vw;
+    width: 30px;
     width: 30px;
     height: 22px;
     vertical-align: middle;
@@ -359,7 +374,7 @@ footer {
     width: 25px;
     /*長さ*/
     border-radius: 3px;
-    background: #555;
+    background:#FF5666 ;
     display: block;
     content: '';
     cursor: pointer;

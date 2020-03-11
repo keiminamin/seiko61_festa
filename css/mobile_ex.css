@@ -5,6 +5,7 @@
 
 body {
     background-color: #fafafafa;
+    padding-top: 5vh;
 
 }
 
@@ -64,8 +65,25 @@ a:hover {
     opacity: 0.3;
     transition: 0.3s
 }
+header{
+display: flex;
+    justify-content: center;
+}
+.header-logo{
 
-
+width: 90vw;
+    height: 5vh;
+    background: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    position: fixed;
+    color: #393E41;
+    z-index: 99;
+    padding: 5px;
+    }
 a.list {
     color: #393E41;
 
@@ -397,6 +415,9 @@ display: none;
      z-index: 99;
     margin: 30px;
     width: 30px;
+     position:relative;
+     
+     left: -12vw;
     height: 22px;
     vertical-align: middle;
 }
@@ -411,7 +432,7 @@ display: none;
     width: 25px;
     /*長さ*/
     border-radius: 3px;
-    background: #555;
+    background: #FF5666;
     display: block;
     content: '';
     cursor: pointer;

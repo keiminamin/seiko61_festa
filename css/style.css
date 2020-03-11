@@ -367,12 +367,14 @@ h2 {
  position: absolute;
     top: 200px;
     left: 20px;
+    z-index: 99;
 }
 
 .arrow4{
  position: absolute;
     top: 190px;
     left: 780px;
+    z-index: 99;
 }
 .content {
     width: 70%;
@@ -472,7 +474,9 @@ margin: 0 auto;
 
     overflow: hidden;
 }
-
+.mobile_main_title{
+display: none;
+}
 .facebook {
 
     background-color: #393E41;
